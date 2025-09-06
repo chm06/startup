@@ -9,14 +9,7 @@
 - [MDN](https://developer.mozilla.org)
 
 ## GIT
-Commands I need and will probably forget:
-'''
-git pull
-git status
-git add
-git commit -am "comment"
-git push
-'''
+Commands I need and will probably forget: git pull, git status, git add, git commit -am "comment", git push
 
 ## AWS
 
