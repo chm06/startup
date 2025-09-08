@@ -6,20 +6,17 @@ Pet Ranker is a website that allows users to view and vote on a list of differen
 
 ## 🚀 Specification Deliverable
 
-> [!NOTE]
->  Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
-- [ ] Description of key features
+- [x] Description of key features
 - [ ] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-People love their pets. But when it comes to deciding who's pet is the cutest, we can't agree. Pet Ranker will be a multi-user web application that allows peers to view and vote on many different pets, with a scoreboard for some friendly competition to show which one is the most "loved".
+People love their pets. But when it comes to deciding who's pet is the cutest, we can't agree. Pet Ranker will be a multi-user web application that allows peers to view and vote on many different pets, with a scoreboard for some friendly competition to show which one is the most "loved". Choose your favorites and vote for them each day!
 
 ### Design
 
@@ -36,9 +33,11 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Sign up with email, register, login/logout
+- Use you daily votes on different pets like dogs, cats, fish, and more
+- Add your personal favorites to your list
+- View weekly scoreboard of all the pets
+- Receive notifications if one of your favorites is doing well
 
 ### Technologies
 
