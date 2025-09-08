@@ -11,7 +11,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -43,12 +43,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - I'll have three pages for: register/login, play (with options to filter by pet type), and leaderboard
+- **CSS** - A pleasing and "friendly" color scheme with matching font, effects for when you hover over and click buttons like "love" and "favorite"
+- **React** - Updates the UI dynamically, like switching between logged-in and logged-out views or updating parts when votes are cast
+- **Service** - Use a pet-related API (like Petfinder?) to *fetch* pet images/profiles
+- **DB/Login** - Saves user data (email, password, and favorites), restricts voting to signed-in users
+- **WebSocket** - Sends and receives updates to the scoreboard in real time
 
 ## 🚀 AWS deliverable
 
