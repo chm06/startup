@@ -26,10 +26,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ```mermaid
 sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor User
+    User->>Login: Enter login information
+    Login->>Play: View pets
+    Play->>Play: Repeat voting sequence
+    Play->>Play: View other pet categories
+    Leaderboard-->>Login: Logout
+    Login->>Leaderboard: View pet scores
 ```
+
 
 ### Key features
 
