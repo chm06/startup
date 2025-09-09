@@ -12,7 +12,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
 - [x] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
@@ -20,9 +20,7 @@ People love their pets. But when it comes to deciding who's pet is the cutest, w
 
 ### Design
 
-![Design image](placeholder.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![Website Sketch](PetRanker_Sketch_Final.png)
 
 ```mermaid
 sequenceDiagram
@@ -34,7 +32,6 @@ sequenceDiagram
     Leaderboard-->>Login: Logout
     Login->>Leaderboard: View pet scores
 ```
-
 
 ### Key features
 
