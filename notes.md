@@ -23,7 +23,7 @@ Launching my server I initially put it on a private subnet. Even though it had a
 
 ## Caddy
 
-No problems worked just like it said in the [instruction](https://github.com/webprogramming260/.github/blob/main/profile/webServers/https/https.md).
+No problems worked just like it said in the instructions! Suprisingly easy to get the website secured.
 
 ## HTML
 
