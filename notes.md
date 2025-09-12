@@ -9,9 +9,17 @@
 - [MDN](https://developer.mozilla.org)
 
 ## GIT
-Commands I need and will probably forget: git pull, git status, git add, git commit -am "comment", git push
+Commands I need and will probably forget:
+ - git pull
+ - git status
+ - git add
+ - git commit -am "comment"
+ - git push
 
 ## AWS
+My IP address is: 44.216.91.36
+
+Launching my server I initially put it on a private subnet. Even though it had a public IP address and the security group was right, I wasn't able to connect to it. But now it's working fine.
 
 ## Caddy
 
