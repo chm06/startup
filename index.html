@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Pet Ranker - Login</title>
-</head>
-<body>
-  <header>
-    <h1>Pet Ranker</h1>
-    <nav>
-      <a href="index.html"><strong>Login</strong></a>
-      <a href="play.html">Play</a>
-      <a href="leaderboard.html">Leaderboard</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pet Ranker - Play</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; background-color: #f0f0f0;"> 
+    <header>
+      <h1>Pet Ranker</h1>
+      <nav>
+        <menu>
+          <a href="index.html"><strong>Login</strong></a>
+          <a href="play.html">Play</a>
+          <a href="leaderboard.html">Leaderboard</a>
+        </menu>
+      </nav>
+    </header>
 
-  <main>
-    <h2>Welcome to Pet Ranker!</h2>
-    <form>
-      <label>Email <input type="email" placeholder="Email"></label><br>
-      <label>Password <input type="password" placeholder="Password"></label><br>
-      <button type="submit">Login</button>
-      <button type="button">Sign Up</button>
-    </form>
-    <p>[User’s name will display here after login]</p>
-  </main>
+    <main>
+      <h2>Welcome to Pet Ranker!</h2>
 
-  <footer>
-    <p>Carter Michaelis</p>
-    <p><a href="https://github.com/chm06/startup">Source</a></p>
-  </footer>
+      <form method = "get" actions = "play.html">
+        <label>Email <input type="email" placeholder="Enter your email"></label>
+        <br>
+        <label>Password <input type="password" placeholder="Enter your password"></label>
+        <br>
+        <button type="submit">Login</button>
+        <button type="button">Sign Up</button>
+      </form>
+      <p>[User’s name will display here after login]</p>
+    </main>
 
-</body>
+    <footer>
+      <p>Carter Michaelis</p>
+      <p><a href="https://github.com/chm06/startup">Source</a></p>
+    </footer>
+
+  </body>
 </html>
