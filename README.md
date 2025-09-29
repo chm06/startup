@@ -62,15 +62,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I created three separate pages- index.html, play.html, and leaderboard.html- to structure the app's functionality
+- [x] **Proper HTML element usage** - I used HTML elements like \<header>, \<nav>, \<main>, \<footer>, \<form>, and \<table> appropriately throughout the pages
+- [x] **Links** - Each page includes navigational \<a> tags linking to the other pages, allowing smooth transitions between Login, Play, and Leaderboard
+- [x] **Text** - All pages contain clear headings, labels, and descriptions using \<h1>, \<h2>, \<p>, and \<label> elements to guide the user
+- [x] **3rd party API placeholder** -I included image elements in play.html marked as placeholders for 3rd party API content
+- [x] **Images** - : The play.html page displays pet images using the \<img> tag, simulating what will eventually be dynamic content
+- [x] **Login placeholder** - index.html includes a form with email and password inputs to serve as a placeholder for the login
+- [x] **DB data placeholder** - The leaderboard.html page shows a static table of scores that are placeholders for future database content
+- [x] **WebSocket placeholder** - In play.html, there is a \<ul> list labeled in comments as WebSocket data placeholders, simulating real-time notifications
 
 ## 🚀 CSS deliverable
 
