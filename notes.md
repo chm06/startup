@@ -26,7 +26,7 @@ Launching my server I initially put it on a private subnet. Even though it had a
 No problems worked just like it said in the instructions! Suprisingly easy to get the website secured.
 
 ## HTML
-Things to know:
+[My site](https://startup.petranker.click). Things to know:
 
 Use HTML tags such as \<header>, \<main>, and \<footer> to provide clear structural organization of the content
 
