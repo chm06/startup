@@ -8,3 +8,12 @@ body {
   background-color: #f0f0f0;
   color: #222;
 }
+
+header {
+  flex: 0 80px;
+  background: linear-gradient(45deg, #4e73df, #1e3d8c);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
