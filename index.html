@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="main.css" />
   </head>
 
-  <body style="font-family: Arial, sans-serif; background-color: #f0f0f0;"> 
+  <body class="bg-light text-dark">
     <header>
-      <h1>Pet Ranker</h1>
+      <h1 class="site-title">Pet Ranker</h1>
       <nav>
-        <menu>
-          <a href="index.html"><strong>Login</strong></a>
+        <menu class="nav-menu">
+          <a href="index.html" class="active">Login</a>
           <a href="play.html">Play</a>
           <a href="leaderboard.html">Leaderboard</a>
         </menu>
       </nav>
     </header>
 
-    <main>
+    <main class="main-content">
       <h2>Welcome to Pet Ranker!</h2>
 
-      <form method = "get" actions = "play.html">
-        <label>Email <input type="email" placeholder="Enter your email"></label>
-        <br>
-        <label>Password <input type="password" placeholder="Enter your password"></label>
-        <br>
+      <form method="get" action="play.html" class="login-form">
+        <label>Email
+          <input type="email" placeholder="Enter your email" required>
+        </label>
+        <label>Password
+          <input type="password" placeholder="Enter your password" required>
+        </label>
+        
         <button type="submit">Login</button>
         <button type="button">Sign Up</button>
       </form>
