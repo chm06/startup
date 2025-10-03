@@ -8,40 +8,40 @@
     <link rel="stylesheet" href="main.css" />
   </head>
 
-  <body class="bg-light text-dark">
+  <body>
     <header>
-      <h1 class="site-title">Pet Ranker</h1>
+      <h1>Pet Ranker</h1>
       <nav>
-        <menu class="nav-menu">
-          <a href="index.html" class="active">Login</a>
-          <a href="play.html">Play</a>
-          <a href="leaderboard.html">Leaderboard</a>
+        <menu>
+          <li><a href="index.html" class="active">Login</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="leaderboard.html">Leaderboard</a></li>
         </menu>
       </nav>
     </header>
 
-    <main class="main-content">
+    <main>
       <h2>Welcome to Pet Ranker!</h2>
 
-      <form method="get" action="play.html" class="login-form">
-        <label>Email
-          <input type="email" placeholder="Enter your email" required>
-        </label>
-        <label>Password
-          <input type="password" placeholder="Enter your password" required>
-        </label>
-
-        <div class="button-group">
-          <button type="submit" class="btn-primary">Login</button>
-          <button type="button" class="btn-secondary">Sign Up</button>
+      <form method="get" action="play.html">
+        <div>
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" />
+        </div>
+        <div>
+          <button type="submit">Login</button>
+          <button type="button">Sign Up</button>
         </div>
       </form>
     </main>
 
     <footer>
-      <p>Carter Michaelis</p>
-      <p><a href="https://github.com/chm06/startup" class="source-link">Source</a></p>
+      <span>Carter Michaelis</span>
+      <a href="https://github.com/chm06/startup">Source</a>
     </footer>
-
   </body>
 </html>
